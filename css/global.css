@@ -1,0 +1,16 @@
+/* CSS reset */
+body,
+h1,
+h2,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
