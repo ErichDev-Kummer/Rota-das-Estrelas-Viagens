@@ -1,8 +1,8 @@
 header{
+    background-color: var(--background-terciary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: yellow;
 }
 
 .img-mobile {
