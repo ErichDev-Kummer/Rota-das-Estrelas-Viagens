@@ -3,11 +3,41 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 60px;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: 140px;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+header label img {
+    width: 32px;
+    height: auto;
 }
 
 .img-mobile {
-    width: 90px;
-    height: auto;
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
+.navigation-menu {
+    display: none;
+}
+
+/* Mostra quando o checkbox está marcado */
+#menu:checked ~ .navigation-menu {
+    display: block;
 }
 
 .list-links {
