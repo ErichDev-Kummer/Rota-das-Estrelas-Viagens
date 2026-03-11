@@ -1,5 +1,8 @@
 header{
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
 }
 
 .img-mobile {
@@ -7,9 +10,14 @@ header{
     height: auto;
 }
 
+.list-links {
+    list-style: none;
+}
+
 @media (min-width: 768px) {
     .logo {
-        width: 140px;
+        width: 100%;
+        max-width: 140px;
     }
 }
 
